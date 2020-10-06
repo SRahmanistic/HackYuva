@@ -1,0 +1,14 @@
+{
+  "name": "forntend-hackathon-master",
+  "version": "1.0.0",
+  "description": "This repository contains the open sourced code for our front end hackathon.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "particles.js": "^2.0.0"
+  }
+}
