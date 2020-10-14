@@ -8780,3 +8780,18 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: #F05F40;
 }
+
+#judges .container .row .col-md-4 .img-responsive{
+    margin-top: 20px;
+}
+
+#judges .container .row .col-md-4 a{
+    text-align: center;
+    background-color: #F05F40;
+}
+
+#judges .container .row .col-md-4 a:hover, #judges .container .row .col-md-4 a:focus{
+    text-align: center;
+    background-color: #ffa400;
+    color: #000;
+}
