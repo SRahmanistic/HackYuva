@@ -8781,17 +8781,37 @@ body {
     -webkit-tap-highlight-color: #F05F40;
 }
 
-#judges .container .row .col-md-4 .img-responsive{
+#judges .container .row .col-md-3 .img-responsive{
     margin-top: 20px;
 }
 
-#judges .container .row .col-md-4 a{
+#judges .container .row .col-md-3 a{
     text-align: center;
     background-color: #F05F40;
 }
 
-#judges .container .row .col-md-4 a:hover, #judges .container .row .col-md-4 a:focus{
+#judges .container .row .col-md-3 a:hover, #judges .container .row .col-md-3 a:focus{
     text-align: center;
     background-color: #ffa400;
     color: #000;
+}
+
+.partner-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.partner-logo img{
+    height: 200px;
+    margin: 7.5px;
+}
+
+@media screen and (max-width: 500px){
+    .partner-logo img{
+        height: auto;
+        width: 250px;
+    }
 }
