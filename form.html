@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HackYuva Monitoring Form</title>
+    <link rel="stylesheet" href="./form/fonts/material-icon/css/material-design-iconic-font.min.css">
+    <!-- Main css -->
+    <link rel="stylesheet" href="./form/css/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <h2>HackYuva Monitoring Form</h2>
+            <form method="POST" class="appointment-form" id="appointment-form"
+                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScRiegURQoUpDgxMe112pJNiys60CBNrLOUExqMQxW7JXGz6w/formResponse">
+                <div class="form-group-1">
+                    <input type="text" name="entry.1889062487" id="title" placeholder="Team name" required />
+                    <input type="url" name="entry.924096031" id="name" placeholder="Github repository link of your project"
+                        required />
+                    <input type="url" name="entry.1436763980" id="email" placeholder="Drive link of screenshots of the work you've done."
+                        required />
+                    <input type="url" name="entry.1663023033" id="phone_number" placeholder="Youtube link of Project"
+                        required />
+                    <input type="text" name="entry.766467475" id="phone_number" placeholder="Commit ID of your last commit."
+                        required />
+                </div>
+                <div class="form-submit">
+                    <input type="submit" name="submit" id="submit" class="submit" value="Submit" />
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./form/vendor/jquery/jquery.min.js"></script>
+    <script src="./form/js/main.js"></script>
+</body>
+
+</html>
