@@ -8809,6 +8809,11 @@ body {
     margin: 7.5px;
 }
 
+.problem-statement .container{
+    width: 90%;
+    margin-top: 10vh;
+}
+
 @media screen and (max-width: 500px){
     .partner-logo img{
         height: auto;
